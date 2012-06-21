@@ -13,7 +13,7 @@ namespace CodingBehind_BED_Post2_EventHandler
             house.FireAlarm += GiveService;
         }
 
-        protected virtual void CheckService(object sender, EventFireAlarm args)
+        protected virtual void CheckService(object sender, CheckServicesArgs args)
         {
             //Do nothing, expected to be implemented in a concrete service
         }

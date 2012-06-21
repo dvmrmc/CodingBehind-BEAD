@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Doctor.cs" />
-    <Compile Include="EventFireAlarm.cs" />
+    <Compile Include="CheckServicesArgs.cs" />
     <Compile Include="Fireman.cs" />
     <Compile Include="House.cs" />
     <Compile Include="Program.cs" />

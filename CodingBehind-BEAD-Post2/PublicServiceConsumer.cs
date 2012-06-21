@@ -8,10 +8,10 @@ namespace CodingBehind_BED_Post2_EventHandler
     public class PublicServiceConsumer
     {
         //CheckServices event declaration
-        public event EventHandler<EventFireAlarm> CheckServices;
+        public event EventHandler<CheckServicesArgs> CheckServices;
         protected List<string> RaiseCheckServices()
         {
-            EventFireAlarm args = new EventFireAlarm();
+            CheckServicesArgs args = new CheckServicesArgs();
 
             if (CheckServices != null)
                 CheckServices(this, args);

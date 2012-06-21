@@ -6,7 +6,6 @@ namespace CodingBehind_BED_Post2_EventHandler
 {
     public class House : PublicServiceConsumer
     {
-
         public void Check()
         {
             Debug.WriteLine("==============");

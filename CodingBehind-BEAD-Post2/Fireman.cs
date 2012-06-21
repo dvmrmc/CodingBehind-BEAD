@@ -5,7 +5,7 @@ namespace CodingBehind_BED_Post2_EventHandler
 {
     public class Fireman : PublicService
     {
-        protected override void CheckService(object sender, EventFireAlarm args)
+        protected override void CheckService(object sender, CheckServicesArgs args)
         {
             args.ServicesWaiting.Add("Fireman");
         }
