@@ -1,4 +1,4 @@
 EventDelegateTest
 =================
 
-Event/Delegate test for http://codingbehind.wordpress.com article called "Behind Events &amp; Delegates (1/3)"
+Event/Delegate examples for http://codingbehind.wordpress.com articles series called "Behind Events &amp; Delegates"
